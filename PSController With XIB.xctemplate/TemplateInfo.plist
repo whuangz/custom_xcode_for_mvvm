@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
+	<key>SortOrder</key>
+	<integer>8</integer>
+  	<key>Options</key>
+  	<array>
+		<dict>
+			<key>Description</key>
+			<string>View Name</string>
+			<key>Identifier</key>
+			<string>psModuleName</string>
+			<key>Name</key>
+			<string>Module name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_psModuleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Description</key>
+			<string>The implementation language</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Objective-C</string>
+			<key>Values</key>
+			<array>
+				<string>Objective-C</string>
+			</array>
+		</dict>
+	</array>
+	<key>Template Author</key>
+	<string>William Huangz - @whuangz</string>
+</dict>
+</plist>
